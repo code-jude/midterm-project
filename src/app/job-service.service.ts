@@ -8,52 +8,52 @@ export class JobServiceService {
 
   jobList: Job[] = [{
     id: 1,
-    title: "Banker",
-    description: "I was all about cash money",
+    title: "The Mayor",
+    description: "Mayor em'",
     duration: "2 years",
-    employer: "ABC BANKING"
+    employer: "The US Government"
   },
   {
     id: 2,
-    title: "Sailor",
-    description: "I was sailing all the live long day",
+    title: "Police-Chief",
+    description: "Keep em' rats under control",
     duration: "2 years",
-    employer: "ABC BANKING"
+    employer: "The US Government"
   },
   {
     id: 3,
-    title: "Painter",
-    description: "I was painting the town... every color that I was hired to",
+    title: "Editor-in-Chief ",
+    description: "Direct the news",
     duration: "2 years",
-    employer: "ABC BANKING"
+    employer: "Kane Corp."
   },
   {
     id: 4,
-    title: "Fisherman",
-    description: "I was fishing for souls",
-    duration: "2 years",
-    employer: "ABC BANKING"
+    title: "Businessman 1",
+    description: "Fund whatever fills my pockets",
+    duration: "N/A",
+    employer: "Vulture Business"
   },
   {
     id: 5,
-    title: "Baker",
-    description: "I baked bread and other things",
-    duration: "2 years",
-    employer: "ABC BANKING"
+    title: "Wife #1",
+    description: "Be a wife of the boss",
+    duration: "How ever long he wants me",
+    employer: "Kane Corp."
   },
   {
     id: 6,
     title: "Investor",
-    description: "I sowing into the kingdom of God",
+    description: "Invest into which ever news segment paints me in the right light",
     duration: "2 years",
-    employer: "ABC BANKING"
+    employer: "Crow Business"
   },
   {
     id: 7,
-    title: "Farmer",
-    description: "I was reaping my efforts from last season",
-    duration: "2 years",
-    employer: "ABC BANKING"
+    title: "Wife #2",
+    description: "Be the boss' favorite wife",
+    duration: "As long as I can keep him happy",
+    employer: "Kane Corp."
   }]
 
   constructor() { }
