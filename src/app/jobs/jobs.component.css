@@ -14,4 +14,15 @@ h1{
     padding-bottom: 20px;
     font-size: 1.2em;
     padding: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+p {
+ text-shadow: 5cap;
+ cursor: pointer;
+}
+
+p:hover {
+    text-shadow: 0 2px 20px #474747;
 }
