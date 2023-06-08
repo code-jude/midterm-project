@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Job } from './models/job';
+import { Observable, of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -7,6 +8,7 @@ import { Job } from './models/job';
 export class JobServiceService {
 
   jobList: Job[] = [{
+
     id: 1,
     title: "The Mayor",
     description: "Mayor em'",
@@ -15,21 +17,21 @@ export class JobServiceService {
   },
   {
     id: 2,
-    title: "Police-Chief",
+    title: "The Police-Chief",
     description: "Keep em' rats under control",
     duration: "2 years",
     employer: "The US Government"
   },
   {
     id: 3,
-    title: "Editor-in-Chief ",
+    title: "The Editor-in-Chief ",
     description: "Direct the news",
     duration: "2 years",
     employer: "Kane Corp."
   },
   {
     id: 4,
-    title: "Businessman 1",
+    title: "The Businessman",
     description: "Fund whatever fills my pockets",
     duration: "N/A",
     employer: "Vulture Business"
@@ -43,9 +45,9 @@ export class JobServiceService {
   },
   {
     id: 6,
-    title: "Investor",
-    description: "Invest into which ever news segment paints me in the right light",
-    duration: "2 years",
+    title: "The Corrupt Politician",
+    description: "My interests are what matter",
+    duration: "As long as I can keep my place at the table",
     employer: "Crow Business"
   },
   {
@@ -57,4 +59,9 @@ export class JobServiceService {
   }]
 
   constructor() { }
+
+  getAllJobs():Observable<Job[]> {
+    return of(this.jobList)
+
+  }
 }

@@ -9,14 +9,14 @@ import { Job } from '../models/job';
 })
 export class JobsComponent implements OnInit {
 
-  job : Job [] = [];
+  jobs: Job[] = [];
 
-constructor (private ourJobService : JobServiceService ){
+  constructor(private ourJobService: JobServiceService) {
 
-}
+  }
 
   ngOnInit(): void {
-    this.job = this.ourJobService.jobList;
+    this.ourJobService.getAllJobs().subscribe(response => this.jobs = response);
   }
 
 }
