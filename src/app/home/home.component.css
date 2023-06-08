@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 3.5em;
+    font-style:inherit;
+}
+
+img {
+    display: grid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; 
+    height: auto;
+    box-shadow: 0 30px 50px #a8a8a8;
+    width:55%;
+    
+}
+
+h2 {
+    text-align: center;
+    padding-top: 75px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; 
+    /* text-shadow: 5px 5px 5px #ccc; */
+}
