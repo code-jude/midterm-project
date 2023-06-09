@@ -45,9 +45,9 @@ export class JobServiceService {
   },
   {
     id: 6,
-    title: "The Corrupt Politician",
-    description: "My interests are what matter",
-    duration: "As long as I can keep my place at the table",
+    title: "The Politician",
+    description: "I serve my own interests",
+    duration: "As long as I can keep my seat at the table",
     employer: "Crow Business"
   },
   {
@@ -60,8 +60,9 @@ export class JobServiceService {
 
   constructor() { }
 
-  getAllJobs():Observable<Job[]> {
+  getJobs():Observable<Job[]> {
     return of(this.jobList)
-
   }
+
+  // getJob():
 }
