@@ -67,4 +67,9 @@ export class JobServiceService {
   getJob(id: number): Observable<Job | undefined>{
     return of(this.jobList.find(j => j.id == id));
   }
+
+  getJobsLength(){
+    return(this.jobList.length);
+  }
+
 }
