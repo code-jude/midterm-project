@@ -7,8 +7,8 @@ h1 {
 }
 
 img {
-    display: grid;
-    position: relative;
+    /* display: grid;
+    position: relative; */
     display: block;
     margin-left: auto;
     margin-right: auto;

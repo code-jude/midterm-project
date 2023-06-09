@@ -1,4 +1,4 @@
 <h1>Positions</h1>
-<div class="container" *ngFor="let j of jobs">
+<div class="container" *ngFor="let j of jobs" [routerLink]="['/jobs', j.id]">
     <p>{{j.title}}</p>
 </div>
