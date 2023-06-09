@@ -1,1 +1,14 @@
-<p>job-details works!</p>
+
+<div *ngIf="job" class = "job">
+    <h1>{{job.title}}</h1>
+
+    <div class="details">
+        <p><b>Job Description:</b> {{job.description}}</p>
+        <p><b>Length of Job:</b> {{job.duration}}</p>
+        <p><b>Employer:</b> {{job.employer}}</p>
+    </div>
+</div>
+
+
+
+<p id=back [routerLink]="['/jobs']">Back To Positions...</p>
