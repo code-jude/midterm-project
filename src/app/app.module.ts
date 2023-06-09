@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { JobDetailsComponent } from './job-details/job-details.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
     HomeComponent,
     AboutComponent,
     JobsComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    JobDetailsComponent
   ],
   imports: [
     BrowserModule,
