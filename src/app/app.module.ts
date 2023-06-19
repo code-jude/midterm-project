@@ -7,6 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { JobDetailsComponent } from './job-details/job-details.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { JobDetailsComponent } from './job-details/job-details.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NoopAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
