@@ -8,6 +8,12 @@ import { JobsComponent } from './jobs/jobs.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { JobDetailsComponent } from './job-details/job-details.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { NavigationPageComponent } from './navigation-page/navigation-page.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -16,12 +22,18 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     AboutComponent,
     JobsComponent,
     NotfoundComponent,
-    JobDetailsComponent
+    JobDetailsComponent,
+    NavigationPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
