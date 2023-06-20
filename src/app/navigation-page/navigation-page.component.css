@@ -1,17 +1,19 @@
-/* .sidenav-container {
-  height: 100%;
-} */
+.sidenav-container{
+  color:blue;
+}
 
 .sidenav {
   width: 200px;
-}
-
-.sidenav .mat-toolbar {
-  background: inherit;
+  background-color: white;
 }
 
 .mat-toolbar.mat-primary {
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+.list {
+  text-align: center;
+  padding-top: 45px;
 }

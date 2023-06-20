@@ -4,6 +4,8 @@ h1 {
     max-width: 100%;
     margin-top: 20px;
     margin-bottom: 15px;
+    padding-top: 20px;
+    padding-left: 30px;
 }
 
 img {
@@ -24,4 +26,5 @@ p {
     text-decoration: underline;
     text-decoration-thickness: 1px;
     padding-top: 90px;
+    padding-left: 0px;
 }
