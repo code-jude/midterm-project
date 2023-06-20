@@ -34,13 +34,18 @@ h2 {
     padding-left: 20px;
 }
 
-.panel{
+.width {
+    width: 700px;
+    margin: auto;
+}
+
+.panel {
     display: center;
-    width:500px;
-    margin:auto;
+    margin: auto;
     padding-top: 10px;
 }
 
-.container{
-margin-top: 20px;
+.container {
+    margin-top: 20px;
 }
+
